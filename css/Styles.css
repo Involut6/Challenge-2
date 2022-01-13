@@ -1,0 +1,127 @@
+body {
+  background-color: #e0e8ff;
+  text-align: center;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  color:	#7280a7;
+}
+
+.Card {
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: 35%;
+  right: 35%;
+}
+
+.hero {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 900;
+  color: 	#1f2f56;
+}
+
+p {
+  font-size: 16px;
+}
+.desc {
+  width: 70%;
+  margin: 0 auto 20px auto;
+}
+
+.Plan {
+  width: 80%;
+  margin: auto;
+  background-color: #f5f7ff;
+  border-radius: 10px;
+  position: relative;
+  padding: 5px 0;
+  font-size: 12px;
+}
+
+.music {
+  float: left;
+  margin: 13px 20px;
+}
+
+.annual-plan {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  right: 45px;
+}
+
+span {
+  font-weight: 700;
+  color: 	#1f2f56;
+}
+.change {
+  position: relative;
+  bottom: 13px;
+  left: 25px;
+  color: #3829E0;
+  font-weight: 700;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: #8784ED;
+}
+.payment {
+  margin-top: 30px;
+   background: #3829E0;
+   background-image: -webkit-linear-gradient(top, #3829E0, #3829E0);
+   background-image: -moz-linear-gradient(top, #3829E0, #3829E0);
+   background-image: -ms-linear-gradient(top, #3829E0, #3829E0);
+   background-image: -o-linear-gradient(top, #3829E0, #3829E0);
+   background-image: -webkit-gradient(to bottom, #3829E0, #3829E0);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 40px;
+   line-height: 40px;
+   color: #FFFFFF;
+   font-family: 'Red Hat Display', sans-serif;
+   width: 305px;
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   -webkit-box-shadow: 0 25px 20px 0 #f5f7ff;
+   -moz-box-shadow: 0 29px 20px 0 #f5f7ff;
+   box-shadow: 0 29px 20px 0 #f5f7ff;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.payment:hover {
+   border: solid #337FED 0;
+   background: #8784ED;
+   background-image: -webkit-linear-gradient(top, #8784ED, #8784ED);
+   background-image: -moz-linear-gradient(top, #8784ED, #8784ED);
+   background-image: -ms-linear-gradient(top, #8784ED, #8784ED);
+   background-image: -o-linear-gradient(top, #8784ED, #8784ED);
+   background-image: -webkit-gradient(to bottom, #8784ED, #8784ED);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.cancel {
+  text-decoration: none;
+  color: #7280a7;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.cancel:hover {
+  color: #1f2f56;
+}
